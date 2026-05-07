@@ -227,7 +227,7 @@ if __name__ == "__main__":
             if results:
                 for q, enriched in results.items():
                     print(f"\nQuery: {q}")
-                    for r in enriched[:3]:
+                    for r in enriched[:5]:  # Show top 5 results
                         print(f"  Score: {r['similarity']:.4f}")
                         print(f"  Text: {r['text'][:100]}...")
                         print(f"  Entities: {r['entities'][:5]}")
