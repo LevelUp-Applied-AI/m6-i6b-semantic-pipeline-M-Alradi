@@ -3,5 +3,5 @@ transformers<4.50
 scikit-learn
 spacy
 pandas
-numpy<2
+numpy
 pytest
